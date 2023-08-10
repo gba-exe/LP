@@ -106,10 +106,36 @@ public class Operador {
                 System.out.println("opção não encontrada");
         }
         //como se fosse if e else if, porém de uma vez só, ele compara todos, um if para várias condições basicamente
+        // não consegue fazer expressões compostas como <, <=, >= e tudo mais, somente o valor da variavel
 
         /*
-        case = if/else if
-        default = else
+            case = if/else if
+            default = else
          */
+
+        // numericos em geral vc pode usar ==
+
+        String nome1 = "Trblgio";
+        String nome2 = "gba";
+
+        if(nome1 == nome2){
+            System.out.println("é engualzinho");
+        }
+
+        // isso funciona até certo ponto...
+
+        // o java quando tem duas variaveis com o mesmo valor ele guarda no mesmo lugar da memória (veio de guerra, sabe oq faz)
+        // ou seja, quando tá no codigo declarado, funciona
+
+        //mas quando tá vindo do banco, do input do usuario, ele coloca em caixinhas diferentes, por isso ele n entraria no if do ==
+
+        // NÃO USAR NUNCA == PRA TEXTO ELE DEU BASTANTE ENFASE NISSO NUNCAAAAAAAAAAAAAAAAAAAAA
+
+        if(nome1.equals(nome2)){ // esse é o jeito certo de fazer pra string
+            System.out.println("engualzinho eu");
+        }
+
+        // qualquer um outro vc usa == MAS PRA STRING NÃOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
     }
+
 }
