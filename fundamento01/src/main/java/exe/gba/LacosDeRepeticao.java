@@ -46,5 +46,14 @@ public class LacosDeRepeticao {
 
         // ele pergunta pro usuario enquanto o numero não for de 0 a 10
 
+        /*
+         quando vc digita for aparecem 3 opções
+
+         for = for cru, sem condições
+         fori = for com a estrutura basica
+         foreach = for para listas, veremos no futuro
+         */
     }
+
 }
+

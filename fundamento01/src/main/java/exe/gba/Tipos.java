@@ -33,6 +33,7 @@ public class Tipos {
         //Não recomendável
         Integer num1, num2 = 20, num3;
 
+
         Double numeralReal = 0.10;
 
         // is ou has em booleans
