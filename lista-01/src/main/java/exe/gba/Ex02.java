@@ -16,7 +16,8 @@ public class Ex02 {
         Integer tmpMusculacao = leitor.nextInt();
 
         Integer caloriasPerdidas = (tmpAquecendo * 12) + (tmpAerobico * 20) + (tmpMusculacao * 25);
+        Integer minutosTotais = tmpAquecendo + tmpAerobico + tmpMusculacao;
 
-        System.out.println("");
+        System.out.println("Olá, Jorge. Você fez um total de " + minutosTotais + " minutos de exercícios e perdeu cerca de " + caloriasPerdidas + " calorias");
     }
 }
