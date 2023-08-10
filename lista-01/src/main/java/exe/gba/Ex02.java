@@ -18,6 +18,6 @@ public class Ex02 {
         Integer caloriasPerdidas = (tmpAquecendo * 12) + (tmpAerobico * 20) + (tmpMusculacao * 25);
         Integer minutosTotais = tmpAquecendo + tmpAerobico + tmpMusculacao;
 
-        System.out.println("Olá, Jorge. Você fez um total de " + minutosTotais + " minutos de exercícios e perdeu cerca de " + caloriasPerdidas + " calorias");
+        System.out.printf("Olá, Jorge. Você fez um total de  %d minutos de exercícios e perdeu cerca de %d calorias", minutosTotais, caloriasPerdidas);
     }
 }
