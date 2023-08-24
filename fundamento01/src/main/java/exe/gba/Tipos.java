@@ -28,11 +28,10 @@ public class Tipos {
         // variaveis camelCase
 
         Integer numeroInteiro = 10;
-        Integer numeroInteiro2;
+        Integer numeroInteiro2 = 10;
 
         //Não recomendável
         Integer num1, num2 = 20, num3;
-
 
         Double numeralReal = 0.10;
 
@@ -50,6 +49,8 @@ public class Tipos {
 
             Os da esquerda são como uma classe que tem mais funções, ja os da direita são só o tipo da variavel, sem função nenhuma
          */
+
+
 
         System.out.println(nome + " " + numeroInteiro);
         System.out.println("Julio Furch");

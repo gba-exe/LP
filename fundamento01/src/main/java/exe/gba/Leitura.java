@@ -12,13 +12,13 @@ public class Leitura {
         Scanner = tipo
         leitor = nome
         new = novo
-        System.in = saída padrão do sistema (assim como System.out é a saída padrão)
+        System.in = entrada padrão do sistema (assim como System.out é a saída padrão)
 
          O método scanner pode receber vários valores dentro do parenteses, mas por enquanto estaremos so usando o System.in
          */
 
         System.out.println("Digite seu nome: ");
-        String  nomeDigitado = leitor.nextLine(); //quando chegar nessa linha o codigo vai parar esperando o usuario digitar algo
+        String nomeDigitado = leitor.nextLine(); //quando chegar nessa linha o codigo vai parar esperando o usuario digitar algo
 
         System.out.println("Olá " + nomeDigitado);
 

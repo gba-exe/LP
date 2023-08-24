@@ -41,7 +41,7 @@ public class Randomico {
         Integer caloriasPerdidas = (tmpAquecendo * 12) + (tmpAerobico * 20) + (tmpMusculacao * 25);
         Integer minutosTotais = tmpAquecendo + tmpAerobico + tmpMusculacao;
 
-        System.out.printf("Olá, Jorge. Você fez um total de  %d minutos de exercícios e perdeu cerca de %d calorias", minutosTotais, caloriasPerdidas);
+        System.out.printf("Olá, Jorge. Você fez um total de %d minutos de exercícios e perdeu cerca de %d calorias", minutosTotais, caloriasPerdidas);
         // vc escreve o texto que quer e no lugar das variaveis adiciona o tipo, apos isso as adiciona após a frase com virgulas em orde de como elas aparecem
     }
 }

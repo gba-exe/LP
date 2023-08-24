@@ -88,7 +88,7 @@ public class Operador {
         switch (numeroOpcao){ // aqui dizemos a variavel que queremos observar
             case 1: // caso a variavel seja igual a 1
                 System.out.println("usuario escolheu 1");// printamos isso
-            break;
+                break;
 
             case 2: // caso a variavel seja igual a 2
                 System.out.println("usuario escolheu 2");// printamos isso
