@@ -1,4 +1,4 @@
-package exe.gba;
+package exe.gba.dev;
 
 public class Dev {
     protected String nome;
@@ -37,5 +37,14 @@ public class Dev {
 
     public void setValorHora(Double valorHora) {
         this.valorHora = valorHora;
+    }
+
+    @Override
+    public String toString() {
+        return "Dev{" +
+                "nome='" + nome + '\'' +
+                ", qtdHoras=" + qtdHoras +
+                ", valorHora=" + valorHora +
+                '}';
     }
 }
